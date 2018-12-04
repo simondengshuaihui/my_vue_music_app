@@ -39,7 +39,7 @@ module.exports = {
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
-    port: 8091,
+    port: 9892,
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
