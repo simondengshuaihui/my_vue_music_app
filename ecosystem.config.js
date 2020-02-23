@@ -22,7 +22,7 @@ module.exports = {
       user : 'root',
       host : '47.107.127.139',
       ref  : 'origin/master',
-      repo : 'git@gitee.com:simonhui/music-app.git',
+      repo : 'git@github.com:simondengshuaihui/my_vue_music_app.git',
       path : '/www/music/production',
       'post-deploy' : 'git pull origin master && cnpm install && npm build && pm2 reload ecosystem.config.js --env production'
     }
